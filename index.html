@@ -1,107 +1,246 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>K-B Canine</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="w3.css">
 <style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", Verdana, sans-serif;
 }
+html {
+  scroll-behavior: smooth;}
 </style>
-<body>
+<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script> 
+</head><body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
+  <div class="w3-bar w3-deep-purple w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>K-B</b> Canine</a>
+    <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
+      <a href="#services" class="w3-bar-item w3-button">Services</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Le Catering</h1>
-  </div>
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="Davies6.JPG" alt="Architecture" width="1500" height="800">
+    <div class="w3-display-right w3-margin w3-center">
+          <div class="w3-padding" style="background-color: #673ab775 !important;"><h1 class="w3-xxlarge w3-text-white">
+                    <span class="w3-padding">
+                    <b>K-B</b>&nbsp;Canine</h1>
+                    <span class="w3-hide-small w3-text-white"><h2 class="w3-large">
+                    <b>Dog Training &amp; Behaviour Modification</b></span></div>
+        </span>
+        </h2>
+   <div class="w3-margin-top w3-hide-small"><a href="#about"><button class="w3-center w3-button w3-medium w3-padding-large w3-round-large w3-opacity-min w3-white w3-border w3-border-gray w3-hover-teal"><strong>Learn More</strong></button></a>
+       <a href="#contact"><button class="w3-center w3-button w3-medium w3-padding-large w3-round-large w3-opacity-min w3-indigo w3-border w3-border-gray w3-hover-aqua"><strong>Contact</strong></button></a></div>
+</div>
+
 </header>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
+<div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+
+
+<!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, placeat! Omnis iusto, cumque id excepturi. Vitae perspiciatis aut minima asperiores repellat nihil porro officiis commodi, eos accusamus voluptates, velit assumenda.
+      </p>
+  </div>
+<hr>
+  <div class="w3-container">
+  <img class="w3-image" src="rally1.JPG" alt="">
+</div>
+
+  <!-- Services Section -->
+  <div class="w3-container w3-padding-32" id="services">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Services</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores id consequatur labore quia non autem fuga itaque nulla eum! Modi at ab amet, in atque cumque perspiciatis ullam sequi quisquam.</p>  
+
+</div>
+<!-- 
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <a href="http://cavbk.ca/"><div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="index-W3-architect_files/house5.jpg" alt="House" style="width:100%"></a>
+<p>JavaScript can show hidden HTML elements.</p>
+<p id="demo" style="display:none">Hello JavaScript!</p>
+<button type="button" class="w3-button w3-border w3-block w3-white w3-medium" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+      </div>
     </div>
-
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Catering</h1><br>
-      <h5 class="w3-center">Tradition since 1889</h5>
-      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
-      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="index-W3-architect_files/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="index-W3-architect_files/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="index-W3-architect_files/house4.jpg" alt="House" style="width:100%">
+      </div>
     </div>
   </div>
-  
-  <hr>
-  
-  <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Menu</h1><br>
-      <h4>Bread Basket</h4>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-    
-      <h4>Honey Almond Granola with Fruits</h4>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-    
-      <h4>Belgian Waffle</h4>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h4>Scrambled eggs</h4>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h4>Blueberry Pancakes</h4>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="index-W3-architect_files/house2.jpg" alt="House" style="width:99%">
+      </div>
     </div>
-    
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="index-W3-architect_files/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="index-W3-architect_files/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="index-W3-architect_files/house3.jpg" alt="House" style="width:99%">
+      </div>
     </div>
   </div>
-
-  <hr>
-
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
-    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
-    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
-    </form>
-  </div>
+<hr>
   
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="index-W3-architect_files/team2.jpg" alt="John" style="width:100%">
+      <h3>John Doe</h3>
+      <p class="w3-opacity">CEO &amp; Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="index-W3-architect_files/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Jane Doe</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="index-W3-architect_files/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="index-W3-architect_files/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div> -->
+
+<!--  -->
+ 
+  </div>
+
+
+<!-- Contact Section -->
+<section>
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>
+    Contact me for a consultation.
+    </p>
+    <form
+    action="https://formspree.io/xvowqkaq"
+    method="POST">
+    <label>
+    Your email:
+    <input class="w3-input w3-border w3-section" type="text" name="_replyto" required placeholder="Your Email">
+    </label>
+    <label>
+    Message:
+    <textarea class="w3-input w3-border w3-section" name="message" required autocomplete="off" rows="4" cols="55" style="resize: none;"></textarea>
+    </label>
+    <!-- your other form fields go here -->
+    <label>
+    Your Dog's Name:
+    <input class="w3-input w3-border w3-section" type="text" name="doggo" autocomplete="off" placeholder="Woof!" required>
+    </label>
+    <label>
+    Phone Number (optional):
+    <input class="w3-input w3-border w3-section" type="text" name="phone" autocomplete="off" placeholder="Phone Number (optional)">
+    </label>
+    <button type="submit">Send</button>
+    </form></div>
+</section>
+<!-- Image of location/map -->
+<div class="w3-container">
+<img src="bryn-hat-1.jpg" class="w3-image" style="width:100%">
+</div>
+
 <!-- End page content -->
 </div>
 
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
 
-</body>
-</html>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a><br>&copy;&nbsp;<script>document.write(new Date().getFullYear())</script>&nbsp;Kim Davies</p>
+</footer>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script> 
+<script>
+function ShowHide(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body></html>
